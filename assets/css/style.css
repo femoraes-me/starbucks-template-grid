@@ -164,3 +164,34 @@ header .line {
     background-size: cover;
     background-position: center
 }
+
+/* AREA 2 - SECTION */
+
+.area-2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.area-2--content {
+    padding: 80px;
+}
+
+.area-2--text {
+    margin-bottom: 48px;
+    line-height: 28px;
+}
+
+.area-2--img-1 {
+    background-image: url('../images/f4.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 453px;
+}
+
+.area-2--img-2 {
+    background-image: url('../images/f3.jpg');
+    grid-column: 1 / 2;
+    grid-row: 1 / 3;
+    background-size: cover;
+    background-position: center
+}
