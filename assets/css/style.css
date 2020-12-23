@@ -195,3 +195,27 @@ header .line {
     background-size: cover;
     background-position: center
 }
+
+/* AREA 2 - SECTION */
+.area-3 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.area-3--content {
+    padding: 208px 80px;
+    background-image: url('../images/bg2.jpg');
+    background-size: cover;
+    background-position: left;
+}
+
+.area-3--text {
+    margin-bottom: 48px;
+    line-height: 28px;
+}
+
+.area-3--img-1 {
+    background-image: url('../images/f5.jpg');
+    background-size: cover;
+    background-position: center;
+}
