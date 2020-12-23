@@ -219,3 +219,26 @@ header .line {
     background-size: cover;
     background-position: center;
 }
+
+/* Area 4 - SECTION */
+.area-4 {
+    display: grid;
+    grid-template-columns: 480px 1fr;
+    background-color: #e8e9ee;
+}
+
+.area-4--content {
+    padding: 160px 80px;
+}
+
+.area-4--text {
+    margin-bottom: 48px;
+    line-height: 28px;
+}
+
+.area-4--img-1 {
+    background-image: url('../images/bg3.jpg');
+    background-size: cover;
+    background-position: left;
+}
+
