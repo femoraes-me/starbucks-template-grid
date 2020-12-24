@@ -98,7 +98,7 @@ header .line {
 }
 
 .header--menu {
-    margin-left: 50px;
+    margin-left: 48px;
     cursor: pointer;
 }
 
@@ -267,4 +267,96 @@ footer a {
 footer a:hover {
     text-decoration: underline;
 }
+
+/* Ajustes de responsividade */
+@media (min-width: 769px) and (max-width: 1140px) {
+    .container {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+
+@media (min-width: 500px) and (max-width: 768px) {
+    .container {
+        padding-left: 20px;
+        padding-right: 20px;
+    }   
+
+    .area-1 {
+        grid-template-columns: 3fr 2fr;
+    }
+
+    .area-2 {
+        grid-template-columns: 2fr 3fr;
+    }
+
+    .area-3 {
+        grid-template-columns: 3fr 2fr;
+    }
+}
+
+@media (max-width: 499px) {
+    .container {
+        padding-left: 20px;
+        padding-right: 20px;
+    }   
+
+    .header--menu {
+        margin-left: 24px;
+    }
+
+    .header--search input {
+        max-width: 160px;
+    }   
+    
+    h1 {
+        font-size: 48px;
+        line-height: 64px;
+    }
+
+    h2 {
+        font-size: 32px;
+        line-height: 40px;
+    }
+
+    .banner--images img{
+        width: 72px;
+        height: 72px;
+        border: 3px solid #117050;
+        border-radius: 50%;
+        margin-right: 12px;
+    }
+
+    .area-1,
+    .area-2,
+    .area-3,
+    .area-4 {
+        grid-template-columns: 1fr;
+    }
+
+    .area-4 {
+        background-color: #fff;
+    }
+
+    .area-5 {
+        height: 200px;
+    }
+
+    .area-1--content,
+    .area-2--content,
+    .area-3--content,
+    .area-4--content {
+        padding: 40px;
+    }
+
+    .area-1--img-1 {
+        height: 240px;
+    }
+
+    footer {
+        line-height: 40px;
+        padding: 32px 16px;
+    }
+}
+
 
